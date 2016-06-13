@@ -1,0 +1,1 @@
+say --voice=? | cut -d" " -f1 | xargs -I% sh -c "echo % says: && say -i --voice=% Of course I love you Jason."
